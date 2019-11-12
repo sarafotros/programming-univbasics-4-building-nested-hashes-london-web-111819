@@ -56,7 +56,7 @@ end
 def monopoly_with_fourth_tier
  fifa_2020 = {
 	  :team_a => {
-	    :euro => {:france => {} },
+	    :euro => {:france => {coa} },
 	    :asia => {:korea => {} },
 	    :america => {:usa => {} },
 	    :africa => {:egypt => {} }
