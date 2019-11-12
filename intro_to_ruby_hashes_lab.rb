@@ -57,21 +57,21 @@ def monopoly_with_fourth_tier
  fifa_2020 = {
 	  :team_a => {
 	    :euro => {:france => {coach = "alan", age = "54"} },
-	    :asia => {:korea => {} },
-	    :america => {:usa => {} },
-	    :africa => {:egypt => {} }
+	    :asia => {:korea => {coach = "alan", age = "54"} },
+	    :america => {:usa => {coach = "alan", age = "54"} },
+	    :africa => {:egypt => {coach = "alan", age = "54"} }
 	  },
 	  :team_b => {
-	    :euro => {:uk => {}},
-	    :asia => {:iran =>  {}},
-	    :america => {:brazil => {}},
-	    :africa => { :jamaica => {}}
+	    :euro => {:uk => {coach = "alan", age = "54"}},
+	    :asia => {:iran =>  {coach = "alan", age = "54"}},
+	    :america => {:brazil => {coach = "alan", age = "54"}},
+	    :africa => { :jamaica => {coach = "alan", age = "54"}}
 	  },
 	  :team_c => {
-	    :euro => { :germany => {}},
-	    :asia => { :japan => {}},
-	    :america => { :mexic => {}},
-	    :africa => {:somaly => {}}
+	    :euro => { :germany => {coach = "alan", age = "54"}},
+	    :asia => { :japan => {coach = "alan", age = "54"}},
+	    :america => { :mexic => {coach = "alan", age = "54"}},
+	    :africa => {:somaly => {coach = "alan", age = "54"}}
 	  }
 	}
 end
