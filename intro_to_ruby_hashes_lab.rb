@@ -1,6 +1,8 @@
 def base_hash
 	fifa_2020{
-	  :team_a => {},
+	  :team_a => {
+	    :euro =>
+	  },
 	  :team_b => {},
 	  :team_c => {}
 	}
