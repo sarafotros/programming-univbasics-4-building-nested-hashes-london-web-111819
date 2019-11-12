@@ -1,6 +1,6 @@
 def base_hash
 	fifa_2020{
-	  team
+	  :team_a 
 	}
 end
 
