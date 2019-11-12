@@ -32,22 +32,22 @@ end
 def monopoly_with_third_tier
  fifa_2020 = {
 	  :team_a => {
-	    :euro => {},
-	    :asia => {},
-	    :america => {},
-	    :africa => {}
+	    :euro => {:france => {} },
+	    :asia => {:korea => {} },
+	    :america => {:usa => {} },
+	    :africa => {:egypt => {} }
 	  },
 	  :team_b => {
-	    :euro => {},
-	    :asia => {},
-	    :america => {},
-	    :africa => {}
+	    :euro => {:uk => {}},
+	    :asia => {:iran =>  {}},
+	    :america => {:brazil => {}},
+	    :africa => { :jamaica => {}}
 	  },
 	  :team_c => {
-	    :euro => {},
-	    :asia => {},
-	    :america => {},
-	    :africa => {}
+	    :euro => { :germany => {}},
+	    :asia => { :japan => {}},
+	    :america => { :mexic => {}},
+	    :africa => {:somaly => {}}
 	  }
 	}
 end
