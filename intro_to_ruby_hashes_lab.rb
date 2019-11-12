@@ -1,5 +1,17 @@
 def base_hash
-	fifa_2020{
+ 	fifa_2020{
+	  :team_a => {},
+	  :team_b => {},
+	  :team_c => {}
+	}
+end
+
+def monopoly_with_second_tier
+  
+end
+
+def monopoly_with_third_tier
+ fifa_2020{
 	  :team_a => {
 	    :euro => {},
 	    :asia => {},
@@ -20,17 +32,6 @@ def base_hash
 	  }
 	}
 end
-
-def monopoly_with_second_tier
-  	fifa_2020{
-	  :team_a => {},
-	  :team_b => {},
-	  :team_c => {}
-	}
-end
-
-def monopoly_with_third_tier
- 
 end
 
 def monopoly_with_fourth_tier
