@@ -1,5 +1,7 @@
 def base_hash
-	{}
+	fifa_2020{
+	  team
+	}
 end
 
 def monopoly_with_second_tier
